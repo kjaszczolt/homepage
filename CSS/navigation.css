@@ -1,0 +1,39 @@
+.navigation {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    color: #284E87;
+}
+
+.navigation__list {
+    list-style-type: none;
+    padding-left: 0;
+    color: #284E87;
+}
+
+.navigation__item {
+    margin: 5px;
+}
+
+.navigation__link {
+    text-decoration: none;
+    padding: 20px;
+    color: #284E87;
+}
+
+.navigation__link--buy {
+    color: #991605;
+}
+
+.navigationLink2:hover {
+    color: #3a5800;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navigationLink1:active {
+    color: #991605;
+    text-decoration: none;
+    list-style-type: none;
+}

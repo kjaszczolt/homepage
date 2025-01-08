@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.button {
+    margin: 10px;
+}
+
+.photoItem {
+    margin: 10px;
+    border: double #991605;
+    border-radius: 50%;
+}
+
+.sectionMargin {
+    margin: 10px;
+    padding: 5px;
+}
+
+.item {
+    margin: 10px;
+    color: #991605;
+}
+
+.aboutMe {
+    color: rgb(20, 55, 85);
+    margin: 10px;
+    padding: 5px;
+    background-color: rgba(204, 218, 231, 0.253);
+}
+
+.listItem {
+    margin: 10px;
+    color: #284E87;
+}
+
+.link {
+    margin: 10px;
+    color: #991605;
+    text-decoration: none;
+}
+
+.footer {
+    margin: 10px;
+    background-color: #fceaea75;
+    outline: solid #284E87;
+    outline-offset: 5px;
+}

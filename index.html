@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona</title>
+    <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/header.css" rel="stylesheet">
+    <link href="CSS/navigation.css" rel="stylesheet">
+    <link href="CSS/table.css" rel="stylesheet">
+    <link href="CSS/form.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script defer src="JS/script.js"></script>
+</head>
+
+<body class="body">
+    <header id="naglowek">
+        <h1 class="header">Kwiaciara i miłośniczka designu..</h1>
+        <h2 class="lowerHeader">.. czyli troszkę z życia architekta wnętrz</h2>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item">
+                Nawigacja strony:
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a class="navigationLink1 navigation__link" href="#naglowek">Nagłówek</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigationLink2 navigation__link" href="#zdjecie">Zdjęcie</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigationLink1 navigation__link" href="#informacje-glowne">Informacje główne</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigationLink2 navigation__link" href="#o-roslinach">O roślinach</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link navigationLink1" href="#ulubione-potrawy">Ulubione potrawy</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link navigationLink2" href="#inne-zainteresowania">Inne
+                            zainteresowania</a>
+                    </li>
+                    <li class="navigation__item ">
+                        <a class="navigationLink1 navigation__link navigation__link--buy" href="#stopka">Stopka</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <aside id="zdjecie">
+        <img class="photoItem" width="200" height="200" src="https://i.postimg.cc/4x8MWYz9/P6270487.jpg"
+            alt="Kamila Jaszczołt">
+        <p>
+            <button class="buttonItem button changeButton">Usuń zdjęcie</button>
+            <!-- if you click the button, the photo will remove  -->
+        </p>
+    </aside>
+    <main id="informacje-glowne">
+        <h3 class="lowerHeader">Coś o mnie</h3>
+        <div class="aboutMe">
+            <p><em>Kiedy ludzie słyszą</em>, że ktoś ukończył kierunek studiów związany z architekturą,
+                myślą sobie.. woow, prestiżowy kierunek, na pewno dużo osiągniesz. Prawda jest niestety taka, że
+                w czasach wszechobecnych programów z Dorotą Szelągowską, każdy jeden kto obejrzy parę takich
+                programów myśli, że może zostać architektem, bo sam zaprojektował sobie mieszkanie w trakcie
+                remontu.</p>
+        </div>
+
+        <p class="sectionMargin">Niewiele osób zdaje sobie sprawę z tego, że wiąże się to jednak z nieco innymi
+            umiejętnościami, niż tylko dobieranie kolorków i płytek do <i>paneli podłogowych</i>.<br>
+            Stąd też wzięła się we mnie, mimo miłości do dobrego, światowego designu
+            <b>(głównie włoskiego i hiszpańskiego)</b> ogromna chęć zmiany kierunku, na coś związanego mimo wszystko
+            z projektowaniem, ale w trochę innym wydaniu. <strong>Stąd decyzja o zmianie, jaką jest
+                <span class="item">Frontend!</span>
+            </strong>
+        </p>
+        <h3 class="lowerHeader">Praca, studia, <em>życie</em></h3>
+        <p class="sectionMargin">Mimo ukończonych we Wrocławiu, moim rodzinnym mieście studiów na kierunku Architektura
+            wnętrz, ścieżki
+            zawodowe zaprowadziły mnie gdzieś, gdzie jako rodowita Wrocławianka nigdy nie spodziewałam się znaleźć..
+            <b><span class="item">czyli do Radomia!</span></b> A żeby życie wyglądało na jeszcze
+            przekorniejsze,
+            pracuję
+            na najsłynniejszym lotnisku w naszym kraju!
+        </p>
+    </main>
+    <section id="o-roslinach">
+        <h3 class="lowerHeader">Rośliny i ja</h3>
+        <p class="sectionMargin">Od około 4 lat jestem przeogromną fanką wszelkiego rodzaju <b><span class="item">roślin
+                    doniczkowych</span></b>, w szczególności tropikalnych.
+            Żadne
+            alokazje mi nie straszne! Miejsca na parapetach i wszelkich kwietnikach brak, a w symbiozie z moimi
+            roślinami i
+            ze mną
+            żyje jeszcze 2 osobników - mąż oraz czterokolorowe cudo w postaci kota. W pogoni za muszką lub motylkiem nie
+            raz
+            już fruwały
+            doniczki, ale czego się nie wybaczy uroczym stworzeniom..</p>
+        <p class="sectionMargin">Niektóre rośliny kolekcjonerskie, które posiadam:</p>
+        <ul>
+            <li class="listItem">
+                Alokazje
+                <ul>
+                    <li class="listItem">Frydek Variegata</li>
+                    <li class="listItem">Jacklyn</li>
+                </ul>
+            </li>
+            <li class="listItem">
+                Philodendrony
+                <ul>
+                    <li class="listItem">Pink Princess</li>
+                    <li class="listItem">Florida Beauty</li>
+                    <li class="listItem">Burle Marx Variegata</li>
+                    <li class="listItem">Tortum</li>
+                    <li class="listItem">Jose Buono</li>
+                </ul>
+            </li>
+        </ul>
+        <p class="sectionMargin">Chcesz poczytać, od jakich roślin kolekcjonerskich warto
+            <a class="link" href="https://home.morele.net/ogrod-i-balkon/rosliny-kolekcjonerskie-od-a-do-z/">
+                zacząć swoją przygodę z roślinami?
+            </a>
+        </p>
+    </section>
+    <section id="ulubione-potrawy">
+        <h3 class="lowerHeader">Czy gotuję?</h3>
+        <table class="table">
+            <caption>Ulubione potrawy</caption>
+            <tr class="tableRow">
+                <th class="tableCell tableHeader" scope="col">Nazwa</th>
+                <th class="tableCell tableHeader" scope="col">Rodzaj kuchni/pochodzenie</th>
+                <th class="tableCell tableHeader" scope="col">Czas przygotowania</th>
+            </tr>
+            <tr class="tableRow">
+                <th class="tableCell tableHeader" scope="row">Spaghetti alla Carbonara</th>
+                <td class="tableCell">kuchnia włoska</td>
+                <td class="tableCell">40 minut</td>
+            </tr>
+            <tr class="tableRow">
+                <th class="tableCell tableHeader" scope="row">Pierogi</th>
+                <td class="tableCell">kuchnia polska</td>
+                <td class="tableCell">2 godziny</td>
+            </tr>
+            <tr class="tableRow">
+                <th class="tableCell tableHeader" scope="row">Sushi</th>
+                <td class="tableCell" rowspan="2">kuchnia japońska</td>
+                <td class="tableCell" rowspan="2">1 godzina</td>
+            </tr>
+            <tr class="tableRow">
+                <th class="tableCell tableHeader" scope="row">Ramen</th>
+            </tr>
+        </table>
+    </section>
+    <section id="inne-zainteresowania">
+        <h3 class="lowerHeader">Inne zainteresowania?</h3>
+        <p class="sectionMargin">Z natury jestem artystką, uwielbiam rysować, robić makramy i wszelkie rzeczy wymagające
+            ogromnych pokładów
+            cierpliwości i umiejętności manualnych. <em>Wychodzę z założenia, że jeśli jestem w stanie zrobić coś sama,
+                to
+                nikt mnie nie przekona że nie dam rady.</em> Jestem więc sama sobie stylistką (przez kilka lat
+            pracowałam
+            jako
+            dekorator w sklepach
+            odzieżowych, więc zainteresowanie modą zostało ze mną), stylistką paznokci, makijażystką, ekipą remontową,
+            robię
+            również różne
+            rzeczy DIY!</p>
+    </section>
+    <footer class="footer" id="stopka">
+        <p>Nie ma dla mnie rzeczy niemożliwych! <b>W końcu kto jest na tyle odważny, by przeprowadzić się z Wrocławia do
+                Radomia?</b></p>
+    </footer>
+    <form class="form">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">
+                Chcesz wiedzieć więcej? Zostaw swój adres e-mail, napiszę do ciebie!
+            </legend>
+            <p>
+                <label>
+                    <span class="form__labelText">
+                        E-mail:
+                    </span>
+                    <input class="form__field" name="name" type="email">
+                </label>
+            </p>
+            <p>
+                <button class="form__button">Wyślij!</button>
+            </p>
+        </fieldset>
+    </form>
+</body>
+
+</html>

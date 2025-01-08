@@ -1,0 +1,22 @@
+.header {
+    max-width: 1000px;
+    margin: 10px;
+    border: 5px ridge#991605;
+    background-color: #E2D3D3;
+    padding: 30px;
+    padding-left: 15px;
+    box-shadow: inset 1px -1px 34px 6px #9B9AD3,
+        -5px 5px 5px 0 rgba(142, 28, 28, 0.62);
+    color: #991605;
+    background-color: rgba(241, 199, 199, 0.8);
+    font-family: "Playfair Display", serif;
+}
+
+.lowerHeader {
+    max-width: 1000px;
+    padding: 5px;
+    margin: 10px;
+    padding-left: 15px;
+    color: rgb(20, 55, 85);
+    background-color: rgba(204, 218, 231, 0.514);
+}
