@@ -17,20 +17,9 @@ html {
     margin: 10px;
 }
 
-.photoItem {
-    margin: 10px;
-    border: double #991605;
-    border-radius: 50%;
-}
-
 .sectionMargin {
     margin: 10px;
     padding: 5px;
-}
-
-.item {
-    margin: 10px;
-    color: #991605;
 }
 
 .aboutMe {
@@ -38,17 +27,6 @@ html {
     margin: 10px;
     padding: 5px;
     background-color: rgba(204, 218, 231, 0.253);
-}
-
-.listItem {
-    margin: 10px;
-    color: #284E87;
-}
-
-.link {
-    margin: 10px;
-    color: #991605;
-    text-decoration: none;
 }
 
 .footer {

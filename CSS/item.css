@@ -1,0 +1,21 @@
+.item {
+    margin: 10px;
+    color: #991605;
+}
+
+.item__photo {
+    margin: 10px;
+    border: double #991605;
+    border-radius: 50%;
+}
+
+.item__list {
+    margin: 10px;
+    color: #284E87;
+}
+
+.item__link {
+    margin: 10px;
+    color: #991605;
+    text-decoration: none;
+}

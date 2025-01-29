@@ -10,9 +10,9 @@ const button = document.querySelector(".button");
 
 {
     const removePhotoItemClick = () => {
-        const buttonItem = document.querySelector(".buttonItem");
-        const photoItem = document.querySelector(".photoItem");
-        const changeButton = document.querySelector(".changeButton");
+        const buttonItem = document.querySelector(".js-buttonItem");
+        const photoItem = document.querySelector(".js-photoItem");
+        const changeButton = document.querySelector(".js-changeButton");
 
         buttonItem.addEventListener("click", () => {
             photoItem.remove();

@@ -12,6 +12,7 @@
     <link href="CSS/navigation.css" rel="stylesheet">
     <link href="CSS/table.css" rel="stylesheet">
     <link href="CSS/form.css" rel="stylesheet">
+    <link href="CSS/item.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -26,49 +27,47 @@
 <body class="body">
     <header id="naglowek">
         <h1 class="header">Kwiaciara i miłośniczka designu..</h1>
-        <h2 class="lowerHeader">.. czyli troszkę z życia architekta wnętrz</h2>
+        <h2 class="header__lower">.. czyli troszkę z życia architekta wnętrz</h2>
     </header>
     <nav class="navigation">
+        <span class="navigation__list">
+            Nawigacja strony:
+        </span>
         <ul class="navigation__list">
             <li class="navigation__item">
-                Nawigacja strony:
-                <ul class="navigation__list">
-                    <li class="navigation__item">
-                        <a class="navigationLink1 navigation__link" href="#naglowek">Nagłówek</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigationLink2 navigation__link" href="#zdjecie">Zdjęcie</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigationLink1 navigation__link" href="#informacje-glowne">Informacje główne</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigationLink2 navigation__link" href="#o-roslinach">O roślinach</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigation__link navigationLink1" href="#ulubione-potrawy">Ulubione potrawy</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigation__link navigationLink2" href="#inne-zainteresowania">Inne
-                            zainteresowania</a>
-                    </li>
-                    <li class="navigation__item ">
-                        <a class="navigationLink1 navigation__link navigation__link--buy" href="#stopka">Stopka</a>
-                    </li>
-                </ul>
+                <a class="navigationLink1 navigation__link" href="#naglowek">Nagłówek</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigationLink2 navigation__link" href="#zdjecie">Zdjęcie</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigationLink1 navigation__link" href="#informacje-glowne">Informacje główne</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigationLink2 navigation__link" href="#o-roslinach">O roślinach</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link navigationLink1" href="#ulubione-potrawy">Ulubione potrawy</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link navigationLink2" href="#inne-zainteresowania">Inne
+                    zainteresowania</a>
+            </li>
+            <li class="navigation__item ">
+                <a class="navigationLink1 navigation__link navigation__link--buy" href="#stopka">Stopka</a>
             </li>
         </ul>
     </nav>
     <aside id="zdjecie">
-        <img class="photoItem" width="200" height="200" src="https://i.postimg.cc/4x8MWYz9/P6270487.jpg"
+        <img class="js-photoItem item__photo" width="200" height="200" src="https://i.postimg.cc/4x8MWYz9/P6270487.jpg"
             alt="Kamila Jaszczołt">
         <p>
-            <button class="buttonItem button changeButton">Usuń zdjęcie</button>
+            <button class="button js-buttonItem js-changeButton">Usuń zdjęcie</button>
             <!-- if you click the button, the photo will remove  -->
         </p>
     </aside>
     <main id="informacje-glowne">
-        <h3 class="lowerHeader">Coś o mnie</h3>
+        <h3 class="header__lower">Coś o mnie</h3>
         <div class="aboutMe">
             <p><em>Kiedy ludzie słyszą</em>, że ktoś ukończył kierunek studiów związany z architekturą,
                 myślą sobie.. woow, prestiżowy kierunek, na pewno dużo osiągniesz. Prawda jest niestety taka, że
@@ -85,7 +84,7 @@
                 <span class="item">Frontend!</span>
             </strong>
         </p>
-        <h3 class="lowerHeader">Praca, studia, <em>życie</em></h3>
+        <h3 class="header__lower">Praca, studia, <em>życie</em></h3>
         <p class="sectionMargin">Mimo ukończonych we Wrocławiu, moim rodzinnym mieście studiów na kierunku Architektura
             wnętrz, ścieżki
             zawodowe zaprowadziły mnie gdzieś, gdzie jako rodowita Wrocławianka nigdy nie spodziewałam się znaleźć..
@@ -96,7 +95,7 @@
         </p>
     </main>
     <section id="o-roslinach">
-        <h3 class="lowerHeader">Rośliny i ja</h3>
+        <h3 class="header__lower">Rośliny i ja</h3>
         <p class="sectionMargin">Od około 4 lat jestem przeogromną fanką wszelkiego rodzaju <b><span class="item">roślin
                     doniczkowych</span></b>, w szczególności tropikalnych.
             Żadne
@@ -109,61 +108,61 @@
             doniczki, ale czego się nie wybaczy uroczym stworzeniom..</p>
         <p class="sectionMargin">Niektóre rośliny kolekcjonerskie, które posiadam:</p>
         <ul>
-            <li class="listItem">
+            <li class="item__list">
                 Alokazje
                 <ul>
-                    <li class="listItem">Frydek Variegata</li>
-                    <li class="listItem">Jacklyn</li>
+                    <li class="item__list">Frydek Variegata</li>
+                    <li class="item__list">Jacklyn</li>
                 </ul>
             </li>
-            <li class="listItem">
+            <li class="item__list">
                 Philodendrony
                 <ul>
-                    <li class="listItem">Pink Princess</li>
-                    <li class="listItem">Florida Beauty</li>
-                    <li class="listItem">Burle Marx Variegata</li>
-                    <li class="listItem">Tortum</li>
-                    <li class="listItem">Jose Buono</li>
+                    <li class="item__list">Pink Princess</li>
+                    <li class="item__list">Florida Beauty</li>
+                    <li class="item__list">Burle Marx Variegata</li>
+                    <li class="item__list">Tortum</li>
+                    <li class="item__list">Jose Buono</li>
                 </ul>
             </li>
         </ul>
         <p class="sectionMargin">Chcesz poczytać, od jakich roślin kolekcjonerskich warto
-            <a class="link" href="https://home.morele.net/ogrod-i-balkon/rosliny-kolekcjonerskie-od-a-do-z/">
+            <a class="item__link" href="https://home.morele.net/ogrod-i-balkon/rosliny-kolekcjonerskie-od-a-do-z/">
                 zacząć swoją przygodę z roślinami?
             </a>
         </p>
     </section>
     <section id="ulubione-potrawy">
-        <h3 class="lowerHeader">Czy gotuję?</h3>
+        <h3 class="header__lower">Czy gotuję?</h3>
         <table class="table">
             <caption>Ulubione potrawy</caption>
-            <tr class="tableRow">
-                <th class="tableCell tableHeader" scope="col">Nazwa</th>
-                <th class="tableCell tableHeader" scope="col">Rodzaj kuchni/pochodzenie</th>
-                <th class="tableCell tableHeader" scope="col">Czas przygotowania</th>
+            <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="col">Nazwa</th>
+                <th class="table__cell table__cell--header" scope="col">Rodzaj kuchni/pochodzenie</th>
+                <th class="table__cell table__cell--header" scope="col">Czas przygotowania</th>
             </tr>
-            <tr class="tableRow">
-                <th class="tableCell tableHeader" scope="row">Spaghetti alla Carbonara</th>
-                <td class="tableCell">kuchnia włoska</td>
-                <td class="tableCell">40 minut</td>
+            <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">Spaghetti alla Carbonara</th>
+                <td class="table__cell">kuchnia włoska</td>
+                <td class="table__cell">40 minut</td>
             </tr>
-            <tr class="tableRow">
-                <th class="tableCell tableHeader" scope="row">Pierogi</th>
-                <td class="tableCell">kuchnia polska</td>
-                <td class="tableCell">2 godziny</td>
+            <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">Pierogi</th>
+                <td class="table__cell">kuchnia polska</td>
+                <td class="table__cell">2 godziny</td>
             </tr>
-            <tr class="tableRow">
-                <th class="tableCell tableHeader" scope="row">Sushi</th>
-                <td class="tableCell" rowspan="2">kuchnia japońska</td>
-                <td class="tableCell" rowspan="2">1 godzina</td>
+            <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">Sushi</th>
+                <td class="table__cell" rowspan="2">kuchnia japońska</td>
+                <td class="table__cell" rowspan="2">1 godzina</td>
             </tr>
-            <tr class="tableRow">
-                <th class="tableCell tableHeader" scope="row">Ramen</th>
+            <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">Ramen</th>
             </tr>
         </table>
     </section>
     <section id="inne-zainteresowania">
-        <h3 class="lowerHeader">Inne zainteresowania?</h3>
+        <h3 class="header__lower">Inne zainteresowania?</h3>
         <p class="sectionMargin">Z natury jestem artystką, uwielbiam rysować, robić makramy i wszelkie rzeczy wymagające
             ogromnych pokładów
             cierpliwości i umiejętności manualnych. <em>Wychodzę z założenia, że jeśli jestem w stanie zrobić coś sama,
